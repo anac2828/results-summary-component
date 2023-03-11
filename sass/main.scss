@@ -1,9 +1,10 @@
+@import 'abstracts/mixins';
 @import 'abstracts/variables';
 @import 'base/base';
 @import 'base/reset';
 @import 'base/typography';
 
-@import 'components/result-number-dial';
+@import 'components/category-bar';
 
 @import 'layout/result';
 @import 'layout/summary';

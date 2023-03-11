@@ -1,0 +1,3 @@
+@mixin barcolor($color, $opacity) {
+  background-color: rgba($color, $opacity);
+}

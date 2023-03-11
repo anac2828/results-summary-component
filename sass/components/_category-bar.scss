@@ -1,0 +1,35 @@
+.category{
+  border-radius: 1rem;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  display: flex;
+  gap: 1rem;
+  color: var(--text-color);
+
+  &--red{
+    --text-color: #{$clr-accent-red};
+    @include barcolor($clr-accent-red, .1);
+  }
+  &--yellow{
+    --text-color: #{$clr-accent-yellow};
+    @include barcolor($clr-accent-yellow, .1);
+  }
+  &--teal{
+    --text-color: #{$clr-accent-teal};
+    @include barcolor($clr-accent-teal, .1);
+  }
+  &--purple{
+    --text-color: #{$clr-primary};
+    @include barcolor($clr-primary, .1);
+  }
+
+  &__result{
+    font-weight: $fw-medium;
+    color: $clr-neutral-900;
+    margin-left: auto;
+
+    span{
+      opacity: .4;
+    }
+  }
+}

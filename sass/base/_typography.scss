@@ -4,4 +4,8 @@
 
 .heading-secondary{
   font-weight: $fw-medium;
+
+  &--dark{
+    color: $clr-neutral-900;
+  }
 }
