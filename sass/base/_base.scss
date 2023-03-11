@@ -1,0 +1,14 @@
+html{
+  font-size: 62.5%;
+}
+
+body{
+  font-family: $ff-primary;
+  font-size: $fz-primary;
+  line-height: 1;
+}
+
+main{
+  display: grid;
+  gap: 3rem;
+}

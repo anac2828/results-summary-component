@@ -1,0 +1,33 @@
+.result{
+  background: $gradient-primary;
+  color: $clr-neutral-100;
+  text-align: center;
+  padding: 3rem 6rem 4rem;
+  border-bottom-left-radius: 4rem;
+  border-bottom-right-radius: 4rem;
+  
+  &__number-container{
+    width: 14rem;
+    background: $gradient-secondary;
+    border-radius: 100%;
+    aspect-ratio: 1 / 1;
+    margin: 2.5rem auto;
+    padding-top: 3rem;
+  }
+
+  &__number--main{
+    font-size: 5rem;
+    font-weight: $fw-bold;
+    margin-bottom: .5rem;
+    line-height: 1;
+  }
+
+  &__number--target{
+    opacity: $opacity-md;
+  }
+
+  &__text{
+    font-size: 1.6rem;
+    opacity: $opacity-md;
+  }
+}

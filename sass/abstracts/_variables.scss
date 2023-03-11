@@ -1,0 +1,29 @@
+
+$clr-accent-red: hsl(0, 100%, 67%);
+$clr-accent-yellow: hsl(39, 100%, 56%);
+$clr-accent-teal: hsl(166, 100%, 37%);
+$clr-primary: hsl(234, 85%, 45%);
+
+
+$clr-neutral-100: hsl(0, 0%, 100%);
+$clr-neutral-200: hsl(221, 100%, 96%);
+$clr-neutral-700: hsl(241, 100%, 89%);
+$clr-neutral-900: hsl(224, 30%, 27%);
+
+// ## Gradients
+
+$gradient-primary: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%) 60%);
+$gradient-secondary: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+
+
+
+// FONTS
+
+
+$fz-primary: 1.8rem;
+$ff-primary: 'Hanken Grotesk', sans-serif;
+$fw-normal: 500;
+$fw-medium: 700;
+$fw-bold: 800;
+
+$opacity-md: .6;
