@@ -1,10 +1,13 @@
 @import 'abstracts/mixins';
 @import 'abstracts/variables';
-@import 'base/base';
 @import 'base/reset';
+@import 'base/base';
+@import 'base/utils';
 @import 'base/typography';
 
+@import 'components/button';
 @import 'components/category-bar';
 
 @import 'layout/result';
 @import 'layout/summary';
+@import 'layout/queries';

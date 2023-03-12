@@ -5,9 +5,35 @@ html{
 body{
   font-family: $ff-primary;
   font-size: $fz-primary;
-  line-height: 1;
+  line-height: 1.5;
+  display: grid;
+  // background-color: $clr-neutral-100;
+
+  @media only screen and (min-width: 37.5em){
+    grid-template-rows: 1fr min-content;
+  }
+
+
 }
 
 main{
   display: grid;
+  max-width: 70rem;
+}
+
+// 600px and above
+@media only screen and (min-width: 37.5em){
+  body{
+    place-content: center;
+  }
+  main{
+    align-self: center;
+    grid-template-columns: 1fr 1fr;
+    border-radius: $size-300;
+    box-shadow: 1rem 1.5rem 2.5rem rgba($clr-primary, .1);
+  }
+}
+
+footer{
+  padding: $size-50;
 }
